@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+	<!-- Here we map the details between java bean class and the database tool 
+		which we use the <class> elements are used to define specific mappings from 
+		a java class to the database table. coding standard:ClassName and TableName 
+		can be same -->
+	<class name="hibernate.part.employee.Employee" table="employeedetails">
+		<meta attribute="class-description">It has employee details</meta>
+
+		<id name="id" type="int" column="id">
+			<!-- the <generator> element within the id element is used to generate 
+				the primary key value automatically -->
+			<generator class="native" />
+
+			<!-- The class attribute of the generator element is set to native to 
+				let the hibernate framework to pick either identify,sequence, or hilo algorithm 
+				to generate primary key depends on the capabilities of the underlying database -->
+
+		</id>
+		<!-- The <property> element us used to map a java class property to a column 
+			of the database table -->
+
+		<property name="firstName" column="first_name" type="string" />
+		<property name="lastName" column="last_name" type="string" />
+		<property name="salary" column="salary" type="int" />
+
+
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/commons.collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/commons-logging-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/dom4j-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/easymock-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/hibernate-all.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/hibernate-core-3.3.1.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/hibernate-core-3.6.10.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/javaee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/junit-4.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/objenesis-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/6_Hinernate_only/6_Hinernate_only/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/mysql-connector-java-5.1.41-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

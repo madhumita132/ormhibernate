@@ -1,0 +1,76 @@
+
+[6:04 PM] DHANDAPANI Pugazhi
+
+Employee2.java:
+package springDemo2;
+public class Employee2 {
+
+private String empName;
+private int empId;
+
+public void getEmpName() {
+System.out.println("EmployeeName " + empName);
+}
+public void setEmpName(String empName) {
+this.empName = empName;
+}
+public void getEmpId() {
+System.out.println("EmployeeId " + empId);
+}
+public void setEmpId(int empId) {
+this.empId = empId;
+}
+}
+
+EmployeeBeanCall2.java:
+package springDemo2;
+import
+org.springframework.beans.factory.BeanFactory;
+import
+org.springframework.beans.factory.xml.XmlBeanFactory;
+import
+org.springframework.core.io.ClassPathResource;
+import
+org.springframework.core.io.Resource;
+public class EmployeeBeanCall2 {
+public static void main(String[] args) {
+Resource resource=new
+ClassPathResource("applicationContext2.xml");
+BeanFactory factory=new
+XmlBeanFactory(resource);
+Employee2
+emp1=(Employee2)factory.getBean("beanscopedemo");
+emp1.setEmpId(1902);
+emp1.setEmpName("Jessi");
+System.out.println("emp1 obj is printing");
+emp1.getEmpId();
+emp1.getEmpName();
+Employee2
+emp2=(Employee2)factory.getBean("beanscopedemo");
+System.out.println("emp2 obj is printing");
+emp2.getEmpId();
+emp2.getEmpName();
+emp2.setEmpId(1234);
+System.out.println(" emp1 & emp2
+obj is printing");
+emp2.getEmpId();
+emp1.getEmpId();
+}
+}
+applicationContext2.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beanshttp://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<!-- If a scope is set to singleton, the Spring IoC container creates exactly one instance of the object defined by that
+bean definition. This single instance is stored in a cache of such singleton beans, and all subsequent requests and
+references for that named bean return the cached object. The default scope is always singleton. However, when you need
+one and only one instance of a bean, you can set the scope property to singleton in the bean configuration file. -->
+<!-- <bean id = "beanscopedemo" class = "springDemo2.Employee2" scope = "singleton">-->
+<bean id = "beanscopedemo" class = "springDemo2.Employee2" scope = "prototype">
+<!-- If the scope is set to prototype, the Spring IoC container creates a new bean instance of the object every time
+a request for that specific bean is made. As a rule, use the prototype scope for all state-full beans and
+the singleton scope for stateless beans. -->
+</bean>
+</beans>

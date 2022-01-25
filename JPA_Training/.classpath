@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/hibernate-core-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/hibernate-entitymanager-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/mysql-connector-java-5.1.41-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Cloud/Downloads/JPA With Hibernate Provider/JarFiles/mysql-connector-java-5.1.30.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
